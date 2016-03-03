@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --stack_trace_limit=200 --harmony ./node_modules/mocha/bin/_mocha \"./src/*.spec.js\" --compilers js:babel-register,js:babel-polyfill"
+    "test": "NODE_ENV=test node --stack_trace_limit=200 --harmony ./node_modules/mocha/bin/_mocha \"./src/*.spec.js\" --compilers js:babel-register,js:babel-polyfill",
+    "watch-test": "nodemon --exec 'npm test'"
   },
   "repository": {
     "type": "git",

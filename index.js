@@ -1,6 +1,6 @@
 require('babel-register')();
 require('babel-polyfill');
-var app = require('./app');
+var app = require('./src');
 
 // Start server
 if (!module.parent) {
